@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="page1">
+    <img src="menu-btn.png" id="menuIcon">
+    <h1 style="color: rgb(105, 80, 12); font-style: normal;">Serveur Minecraft</h1>
+    <footer style="height:fit-content  ;"> 
+        </div>
+        <div class="footer-content">
+            <h3>WebMc</h3>
+            <p>Voici les différents reseaux du Serveur Minecraft :</p>
+        </div>
+<a href=""><img id="logo-tw" style="height: 50px "src="twitter logo.png"alt=""></a>
+<div><a href="https://discord.gg/UH7hcGbb"><img id="logo-discord" style="height:50px ;" src="discord logo.png" alt=""></a></div>
+        <div class="footer-bottom">
+            <p>copyright & copy;2022 wQueize_. designed and created by <span>Pmm™</span></p>
+        </div>
+    </footer>
+    
+    <div class="container">
+
+
+    <div class="menu-box" id="menuBox">
+        <ul>
+            <li><a class="" href ="index.html">Home</a></li>
+            <li><a href="contenu.html">Contenu</a></li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+    </div>
+
+<script>
+
+
+
+
+let menuBox = document.getElementById("menuBox");
+let menuIcon = document.getElementById("menuIcon");
+
+
+
+
+menuIcon.onclick = function(){
+    menuBox.classList.toggle("open-menu");
+
+    if(menuBox.classList.contains("open-menu")){
+        menuIcon.src = "btn-closed.png";
+    }
+
+    else{
+        menuIcon.src = "menu-btn.png";
+    }
+
+}
+
+</script>
+
+</body>
+</html>
+</body>
+</html>
