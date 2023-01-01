@@ -1,8 +1,8 @@
 #page1{
-    background-image: url(fond\ 2.png);
-     text-align: center;
-     background-size: cover;
-     background-repeat: no-repeat;
+background-image: url("fond\ 2.png");
+background-size: cover ;
+text-align: center;
+margin-top: -650px;
 }
 
 *{
@@ -23,7 +23,7 @@
     width:40px;
     border-radius: 8% ;
     position: fixed;
-    top: 30px;
+    top: 40px;
     right: 60px;
     cursor: pointer;
     z-index: 100 ;
@@ -32,8 +32,8 @@
 .menu-box{
     width: 0;
     height: 0;
-    background: rgba(0, 0, 0, 0.8);
-    position: fixed;
+    background: rgba(0, 0, 0, 0.521);
+    position: absolute;
     top: 0;
     right: 0;
     display: flex;
@@ -107,61 +107,45 @@
     box-shadow: -2px 2px 0 rgb(0, 255, 234);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #contenu{
-text-align: center;
-}
-
-#Support{
-text-align: center;
-color: aquamarine;
-background-image: url(fond\ support.png);
-}
-
-#Support p{
-    color: rgb(42, 50, 165);
-    float: left;
-    margin-top: 440px;
-    
+    text-align: center;
 }
 
 #logo-discord{
-margin-bottom: 55px;  
-margin-right: -570px ;
-color: rgb(14, 227, 235);
+height: 50px;
+margin-top: 65px;
+margin-right: 25px;
+
 }
-#logo-tw{
-    margin-right: 100px;
-    margin-bottom: -55px ;
+
+#logo-twitter{
+    margin-bottom: 5px;
+}
+
+footer{
+    background-color: rgba(255, 189, 189, 0.603);
+    opacity: 45%;
+    width: 207vh;
+    height: 180px;
+    margin-top: 417px;
+
+
+    
+}
+
+.footer-content{
+margin-top: 140px;
+align-items: center;
+}
+
+.footer-bottom{
+margin-top: -110px;
+align-items: center;
+}
+#titre-reseaux{
+    margin-top: -10px;
+}
+
+#copyright{
+    margin-top: 55px;
 }
