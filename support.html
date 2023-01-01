@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="contenu-style.css">
-        <link rel="shortcut icon" href="logoicon.png">
+    <link rel="stylesheet" href="Support-Style.css">
+    <link rel="shortcut icon" href="logoicon.png">
 </head>
 <body>
     
@@ -20,32 +20,32 @@
             <li><a href="contenu.html">Contenu</a></li>
             <li><a href="support.html">Support</a></li>
         </ul>
-        <script>
-
-            let menuBox = document.getElementById("menuBox");
-            let menuIcon = document.getElementById("menuIcon");
-            
-            
-            
-            
-            menuIcon.onclick = function(){
-                menuBox.classList.toggle("open-menu");
-            
-                if(menuBox.classList.contains("open-menu")){
-                    menuIcon.src = "btn-closed.png";
-                }
-            
-                else{
-                    menuIcon.src = "menu-btn.png";
-                }
-            }
-            
-            </script>
     </div>
-    <h1>test</h1>
+    <script>
+
+        let menuBox = document.getElementById("menuBox");
+        let menuIcon = document.getElementById("menuIcon");
+        
+        
+        
+        
+        menuIcon.onclick = function(){
+            menuBox.classList.toggle("open-menu");
+        
+            if(menuBox.classList.contains("open-menu")){
+                menuIcon.src = "btn-closed.png";
+            }
+        
+            else{
+                menuIcon.src = "menu-btn.png";
+            }
+        }
+        
+        </script>
+    <h1 style="font-family: Arial;">Support</h1>
     <footer>
         <div class="footer-content">
-            <a href="https://discord.gg/DGUGfuqPXS"><img id="logo-discord" src="discord logo.png" height="50px" alt=""></a>
+            <a href="https://discord.gg/DGUGfuqPXS"><img id="logo-discord" src="image_discord_blancpreview.jpg" height="50px" alt=""></a>
             <a href="contenu.html"><img id="logo-twitter" src ="twitter logo.png" height="50px" alt=""></a>
         </div>
         <div class="footer-bottom">
