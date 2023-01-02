@@ -1,0 +1,62 @@
+<html lang="fr">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WebMc Serveur-Minecraft</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link id="pvpmc" rel="shortcut icon" href="PvP-Mc-removebg-preview.png">  
+
+</head>
+<body id="page1">
+    <div class="container"></div>
+    <img src="menu-btn.png" id="menuIcon">
+    <div class="menu-box" id="menuBox">
+    
+        
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contenu.html">Contenu</a></li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+    </div>
+    <h1 style="color: burlywood; font-style: oblique;">Serveur Minecraft</h1>
+    <footer>
+        <div class="footer-content">
+            <a href="https://discord.gg/DGUGfuqPXS"><img id="logo-discord" src="discord logo.png" height="50px" alt=""></a>
+            <a href="contenu.html"><img id="logo-twitter" src ="twitter logo.png" height="50px" alt=""></a>
+        </div>
+        <div class="footer-bottom">
+            <h2 style="height: 40px;">WebMc</h2>
+        <p id="titre-reseaux"> Voici Les Différents Réseaux Du Serveur</p>
+           </div>
+           <p id="copyright">copyright &copy;2023 wQueize_ .designed by <span>Pmm™</span></p>
+    
+    </footer>
+    
+    
+
+       
+<script>
+
+let menuBox = document.getElementById("menuBox");
+let menuIcon = document.getElementById("menuIcon");
+
+
+
+
+menuIcon.onclick = function(){
+    menuBox.classList.toggle("open-menu");
+
+    if(menuBox.classList.contains("open-menu")){
+        menuIcon.src = "btn-closed.png";
+    }
+
+    else{
+        menuIcon.src = "menu-btn.png";
+    }
+}
+
+</script>
+</body>
+</html>
