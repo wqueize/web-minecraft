@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    font-family: tajawal;
+    background-color: #d4d1d4 ;
+    text-decoration:  underline;
+}
+.div{
+    color: rgb(250, 235, 235);
+    margin-top: 530px;
+    cursor: pointer;
+    text-decoration: none;
+}
